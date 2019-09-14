@@ -1,0 +1,7 @@
+{
+  "wifi_ssid": "",
+  "wifi_pswd": "",
+  "mqtt_server": "",
+  "mqtt_port": 1883,
+  "mqtt_retained": true
+}
