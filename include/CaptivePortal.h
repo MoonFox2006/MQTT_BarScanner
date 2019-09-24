@@ -22,7 +22,7 @@ public:
 #else
   CaptivePortal(const BaseConfig *config) : _config((BaseConfig*)config), _http(NULL), _dns(NULL) {}
 #endif
-  ~CaptivePortal() {
+  virtual ~CaptivePortal() {
     if (_http)
       delete[] _http;
     if (_dns)
